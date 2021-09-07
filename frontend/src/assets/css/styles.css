@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap'); /* Fonte Ubutu que foi pego no google fontes*/
+:root {
+    --color-primary: #FF8400;
+}/* :root define variaveis globais*/
+
+html, body {
+    height: 100%;/*tamanho*/ 
+    font-family: "Ubuntu", sans-serif;/*fonte*/
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex: 1 0 auto; /*colocar o rodape embaixo*/ 
+}
+
+.footer {
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.bg-primary {
+    background-color: var(--color-primary) !important;
+}
+
+.text-primary {
+    color: var(--color-primary) !important;
+}
+/*Dicas Bootstrap color*/
