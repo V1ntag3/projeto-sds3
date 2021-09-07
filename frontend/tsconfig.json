@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src", // orientar o typescript e dizer que os arquivos do javascript estão no src
     "target": "es5",
     "lib": [
       "dom",
