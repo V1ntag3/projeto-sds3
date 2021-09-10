@@ -30,4 +30,4 @@ function BarChart() {
 }
 
 export default BarChart;
-//Site do apexcharts react
+//Site do apexchartsreact
