@@ -6,7 +6,7 @@ function Routes() {
     return (
         <BrowserRouter>
             <Switch>
-                <Route path="/home" exact>
+                <Route path="/" exact>
                     <Home />
                 </Route>
 
